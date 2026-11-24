@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ibisjasu | 아이를 위한 자수공방</title>
+  <meta name="description" content="유아를 위한 방석, 턱받이, 애착인형 등 손자수 작품을 만들고 알리는 자수공방 ibisjasu입니다.">
+  <meta property="og:title" content="ibisjasu | 아이를 위한 자수공방">
+  <meta property="og:description" content="한 땀 한 땀, 아이의 하루를 포근하게 감싸는 손자수 작품">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Jua&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== 작품 일러스트 (사진 준비 전 임시 그래픽) =====
+     실제 사진이 준비되면 아래 <symbol>을 쓰는 <svg> 대신 <img src="images/xxx.jpg" alt="..."> 로 교체하면 됩니다. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- 방석 -->
+    <symbol id="art-cushion" viewBox="0 0 400 400">
+      <rect x="50" y="60" width="300" height="290" rx="60" fill="#F9C9D6"/>
+      <rect x="70" y="80" width="260" height="250" rx="46" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="3 12" stroke-linecap="round"/>
+      <circle cx="60" cy="70" r="14" fill="#F4A9BD"/><circle cx="340" cy="70" r="14" fill="#F4A9BD"/>
+      <circle cx="60" cy="340" r="14" fill="#F4A9BD"/><circle cx="340" cy="340" r="14" fill="#F4A9BD"/>
+      <g transform="translate(200 205)">
+        <g fill="#fff"><circle cx="0" cy="-48" r="30"/><circle cx="46" cy="-15" r="30"/><circle cx="28" cy="40" r="30"/><circle cx="-28" cy="40" r="30"/><circle cx="-46" cy="-15" r="30"/></g>
+        <circle r="26" fill="#FFE49A"/>
+        <circle r="26" fill="none" stroke="#F2C766" stroke-width="3" stroke-dasharray="2 7" stroke-linecap="round"/>
+      </g>
+      <path d="M200 255 C196 300 150 300 140 320 M200 255 C206 300 250 295 262 318" stroke="#9FD4B5" stroke-width="6" fill="none" stroke-linecap="round" stroke-dasharray="1 10"/>
+      <ellipse cx="136" cy="322" rx="22" ry="9" fill="#BFE5CC" transform="rotate(-25 136 322)"/>
+      <ellipse cx="266" cy="320" rx="22" ry="9" fill="#BFE5CC" transform="rotate(25 266 320)"/>
+    </symbol>
+
+    <!-- 유아 턱받이 -->
+    <symbol id="art-bib" viewBox="0 0 400 400">
+      <path d="M120 40 C120 90 280 90 280 40 C330 50 355 110 350 200 C345 300 290 360 200 360 C110 360 55 300 50 200 C45 110 70 50 120 40 Z" fill="#CFE6F5"/>
+      <path d="M120 40 C120 90 280 90 280 40" fill="none" stroke="#fff" stroke-width="5" stroke-dasharray="2 10" stroke-linecap="round"/>
+      <path d="M72 205 C76 295 128 342 200 342 C272 342 324 295 328 205" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="3 11" stroke-linecap="round" opacity=".9"/>
+      <circle cx="108" cy="52" r="9" fill="#F9C9D6"/><circle cx="292" cy="52" r="9" fill="#F9C9D6"/>
+      <g transform="translate(200 240)">
+        <path d="M0 55 C-60 20 -50 -35 -12 -38 C-4 -50 4 -50 12 -38 C50 -35 60 20 0 55 Z" fill="#F7A9B8"/>
+        <path d="M-14 -36 L-26 -52 L-6 -46 L0 -62 L6 -46 L26 -52 L14 -36 Z" fill="#9FD4B5"/>
+        <g fill="#fff"><circle cx="-18" cy="-6" r="3.5"/><circle cx="14" cy="-12" r="3.5"/><circle cx="-4" cy="14" r="3.5"/><circle cx="20" cy="20" r="3.5"/><circle cx="-24" cy="26" r="3.5"/></g>
+      </g>
+    </symbol>
+
+    <!-- 애착인형 (토끼) -->
+    <symbol id="art-doll" viewBox="0 0 400 400">
+      <ellipse cx="200" cy="372" rx="110" ry="14" fill="#000" opacity=".06"/>
+      <g>
+        <ellipse cx="150" cy="95" rx="30" ry="78" fill="#FFF3DD" transform="rotate(-10 150 95)"/>
+        <ellipse cx="150" cy="100" rx="14" ry="52" fill="#F9C9D6" transform="rotate(-10 150 100)"/>
+        <ellipse cx="250" cy="95" rx="30" ry="78" fill="#FFF3DD" transform="rotate(10 250 95)"/>
+        <ellipse cx="250" cy="100" rx="14" ry="52" fill="#F9C9D6" transform="rotate(10 250 100)"/>
+      </g>
+      <ellipse cx="200" cy="300" rx="82" ry="72" fill="#FFF3DD"/>
+      <ellipse cx="128" cy="300" rx="22" ry="40" fill="#FFF3DD" transform="rotate(20 128 300)"/>
+      <ellipse cx="272" cy="300" rx="22" ry="40" fill="#FFF3DD" transform="rotate(-20 272 300)"/>
+      <ellipse cx="200" cy="205" rx="98" ry="88" fill="#FFF3DD"/>
+      <ellipse cx="200" cy="205" rx="90" ry="80" fill="none" stroke="#F2D9B0" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+      <circle cx="162" cy="198" r="9" fill="#6b5a5a"/><circle cx="238" cy="198" r="9" fill="#6b5a5a"/>
+      <circle cx="165" cy="195" r="3" fill="#fff"/><circle cx="241" cy="195" r="3" fill="#fff"/>
+      <ellipse cx="140" cy="228" rx="16" ry="10" fill="#F9C9D6"/><ellipse cx="260" cy="228" rx="16" ry="10" fill="#F9C9D6"/>
+      <path d="M190 218 Q200 228 210 218 M200 224 L200 234 M200 234 Q188 244 182 236 M200 234 Q212 244 218 236" stroke="#E58AA0" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M170 262 L200 276 L230 262 L230 288 L200 276 L170 288 Z" fill="#DCD6F7"/>
+      <circle cx="200" cy="276" r="8" fill="#C4BAF0"/>
+      <g transform="translate(200 325)"><g fill="#FFE49A"><circle cy="-12" r="9"/><circle cx="11" cy="-4" r="9"/><circle cx="7" cy="10" r="9"/><circle cx="-7" cy="10" r="9"/><circle cx="-11" cy="-4" r="9"/></g><circle r="7" fill="#F2B84B"/></g>
+    </symbol>
+
+    <!-- 손수건 -->
+    <symbol id="art-hanky" viewBox="0 0 400 400">
+      <path d="M70 70 Q200 40 330 70 Q360 200 330 330 Q200 360 70 330 Q40 200 70 70 Z" fill="#D8F0E2"/>
+      <path d="M95 95 Q200 72 305 95 Q328 200 305 305 Q200 328 95 305 Q72 200 95 95 Z" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="3 11" stroke-linecap="round"/>
+      <g transform="translate(200 200)">
+        <path d="M-70 40 Q-70 -50 0 -50 Q70 -50 70 40 Z" fill="#FFF3C4"/>
+        <path d="M-70 40 Q-70 -50 0 -50 Q70 -50 70 40" fill="none" stroke="#F5D878" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/>
+        <path d="M-26 40 Q-26 -4 0 -4 Q26 -4 26 40" fill="#fff" stroke="#F5D878" stroke-width="3"/>
+        <path d="M-90 60 Q-45 36 0 60 Q45 36 90 60" fill="none" stroke="#9FD4B5" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="-40" cy="-76" r="10" fill="#fff" opacity=".9"/><circle cx="45" cy="-84" r="7" fill="#fff" opacity=".9"/>
+      </g>
+    </symbol>
+
+    <!-- 이름 담요 -->
+    <symbol id="art-blanket" viewBox="0 0 400 400">
+      <rect x="45" y="70" width="310" height="270" rx="26" fill="#E6E0FA"/>
+      <rect x="62" y="87" width="276" height="236" rx="16" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="3 11" stroke-linecap="round"/>
+      <g fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M120 150 V245 M120 150 H138 Q160 150 160 172 Q160 193 138 193 H120 M138 193 Q168 193 168 220 Q168 245 138 245 H120"/>
+        <path d="M205 150 V245 M205 150 L240 245 L275 150 V245" transform="translate(-8 0) scale(.95 1)"/>
+      </g>
+      <g fill="#F9C9D6"><circle cx="100" cy="280" r="9"/><circle cx="135" cy="280" r="9"/></g>
+      <path d="M170 285 L200 270 L230 285 L200 300 Z" fill="#FFE49A"/>
+      <g fill="#C4BAF0"><circle cx="265" cy="280" r="9"/><circle cx="300" cy="280" r="9"/></g>
+    </symbol>
+
+    <!-- 모빌/가랜드 -->
+    <symbol id="art-mobile" viewBox="0 0 400 400">
+      <path d="M60 60 H340" stroke="#C9A97E" stroke-width="8" stroke-linecap="round"/>
+      <path d="M200 20 V60" stroke="#C9A97E" stroke-width="5" stroke-linecap="round"/>
+      <g stroke="#fff" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round">
+        <path d="M90 60 V150"/><path d="M160 60 V210"/><path d="M240 60 V180"/><path d="M310 60 V250"/>
+      </g>
+      <path d="M90 150 l14 -2 -8 -14 28 0 -8 14 14 2 -20 22 z" fill="#FFE49A" transform="translate(-14 14)"/>
+      <circle cx="160" cy="245" r="36" fill="#FFF3DD"/><circle cx="160" cy="245" r="28" fill="none" stroke="#F2D9B0" stroke-width="3" stroke-dasharray="2 8"/>
+      <path d="M240 235 C195 205 215 160 240 182 C265 160 285 205 240 235 Z" fill="#F7A9B8"/>
+      <path d="M310 250 q-26 0 -26 26 q0 24 26 24 q-12 -10 -12 -24 q0 -14 12 -26 z" fill="#C4BAF0" transform="translate(5 10)"/>
+      <circle cx="318" cy="292" r="3" fill="#fff"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ===== 헤더 ===== -->
+<header class="site-header" id="top">
+  <a href="#top" class="logo" aria-label="ibisjasu 홈">
+    <svg viewBox="0 0 40 40" width="34" height="34" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#F9C9D6"/><circle cx="20" cy="20" r="14" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="2 4" stroke-linecap="round"/><path d="M13 26 C18 12 26 14 27 10" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/><circle cx="27" cy="10" r="2.6" fill="#FFE49A"/></svg>
+    <span>ibisjasu</span>
+  </a>
+  <nav class="nav" id="nav" aria-label="주요 메뉴">
+    <a href="#about">공방 소개</a>
+    <a href="#works">작품</a>
+    <a href="#why">우리의 약속</a>
+    <a href="#class">클래스·창업</a>
+    <a href="#order">주문 안내</a>
+    <a href="#contact" class="nav-cta">문의하기</a>
+  </nav>
+  <button class="menu-btn" id="menuBtn" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+
+<!-- ===== 히어로 롤링 ===== -->
+<section class="hero" aria-roledescription="carousel" aria-label="대표 작품">
+  <div class="hero-blob b1"></div><div class="hero-blob b2"></div><div class="hero-blob b3"></div>
+
+  <div class="slides" id="slides">
+    <article class="slide is-active" style="--bg1:#FDE3EA;--bg2:#FFF4E6">
+      <div class="slide-text">
+        <p class="eyebrow">Handmade Cushion</p>
+        <h1>포근하게 앉는 시간,<br>꽃자수 방석</h1>
+        <p>아이가 가장 오래 머무는 자리에<br>한 송이 꽃을 놓아 드립니다.</p>
+        <a href="#works" class="btn">작품 보러가기</a>
+      </div>
+      <div class="slide-art"><svg viewBox="0 0 400 400" role="img" aria-label="꽃자수 방석 일러스트"><use href="#art-cushion"/></svg></div>
+    </article>
+
+    <article class="slide" style="--bg1:#DDEEFA;--bg2:#F3FBF6">
+      <div class="slide-text">
+        <p class="eyebrow">Baby Bib</p>
+        <h1>식사 시간이 즐거워지는<br>딸기 턱받이</h1>
+        <p>부드러운 면 위에 수놓은<br>작고 귀여운 이야기.</p>
+        <a href="#works" class="btn">작품 보러가기</a>
+      </div>
+      <div class="slide-art"><svg viewBox="0 0 400 400" role="img" aria-label="딸기 자수 유아 턱받이 일러스트"><use href="#art-bib"/></svg></div>
+    </article>
+
+    <article class="slide" style="--bg1:#FFF1C9;--bg2:#FDE3EA">
+      <div class="slide-text">
+        <p class="eyebrow">Comfort Doll</p>
+        <h1>잠들기 전 가장 친한 친구,<br>애착인형</h1>
+        <p>꼭 안고 자도 안심할 수 있게<br>마음을 담아 한 땀씩 완성합니다.</p>
+        <a href="#works" class="btn">작품 보러가기</a>
+      </div>
+      <div class="slide-art"><svg viewBox="0 0 400 400" role="img" aria-label="토끼 애착인형 일러스트"><use href="#art-doll"/></svg></div>
+    </article>
+  </div>
+
+  <button class="arrow prev" id="prev" aria-label="이전 작품">‹</button>
+  <button class="arrow next" id="next" aria-label="다음 작품">›</button>
+  <div class="dots" id="dots" role="tablist" aria-label="슬라이드 선택"></div>
+  <a href="#about" class="scroll-hint" aria-label="아래로 스크롤"><span></span></a>
+</section>
+
+<!-- ===== 공방 소개 ===== -->
+<section class="section about" id="about">
+  <div class="wrap two-col">
+    <div class="reveal from-left about-art">
+      <div class="hoop">
+        <svg viewBox="0 0 400 400" aria-hidden="true"><use href="#art-doll"/></svg>
+      </div>
+      <span class="sticker s1">Hand<br>made</span>
+    </div>
+    <div class="reveal from-right">
+      <p class="eyebrow">About</p>
+      <h2>아이의 하루에<br>작은 온기를 수놓습니다</h2>
+      <p class="lead">ibisjasu는 유아를 위한 손자수 작품을 만드는 공방입니다. 방석, 턱받이, 애착인형처럼 아이가 매일 만나는 물건에 부드러운 실과 따뜻한 마음을 한 땀씩 담습니다.</p>
+      <p>작품을 소개하고 판매하는 데서 시작해, 앞으로는 공방 클래스와 창업 과정으로 이야기를 넓혀 갈 예정입니다.</p>
+      <ul class="chips">
+        <li>손자수</li><li>유아 맞춤</li><li>소량 제작</li><li>선물 포장</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 작품 ===== -->
+<section class="section works" id="works">
+  <div class="wave top" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Works</p>
+      <h2>아이를 위한 작품들</h2>
+      <p>현재 준비 중인 대표 작품입니다. 실제 작품 사진은 순차적으로 교체됩니다.</p>
+    </div>
+    <div class="cards">
+      <article class="card reveal" style="--c:#FDE3EA;--d:0ms">
+        <div class="card-art"><svg viewBox="0 0 400 400" role="img" aria-label="방석"><use href="#art-cushion"/></svg></div>
+        <h3>꽃자수 방석</h3><p>앉아 노는 아이를 위한 포근한 쿠션 방석</p><span class="tag">Cushion</span>
+      </article>
+      <article class="card reveal" style="--c:#DDEEFA;--d:120ms">
+        <div class="card-art"><svg viewBox="0 0 400 400" role="img" aria-label="턱받이"><use href="#art-bib"/></svg></div>
+        <h3>딸기 턱받이</h3><p>부드러운 면에 수놓은 이유식·간식 시간의 단짝</p><span class="tag">Bib</span>
+      </article>
+      <article class="card reveal" style="--c:#FFF1C9;--d:240ms">
+        <div class="card-art"><svg viewBox="0 0 400 400" role="img" aria-label="애착인형"><use href="#art-doll"/></svg></div>
+        <h3>토끼 애착인형</h3><p>꼭 안고 잠드는 아이의 가장 친한 친구</p><span class="tag">Comfort Doll</span>
+      </article>
+      <article class="card reveal" style="--c:#D8F0E2;--d:0ms">
+        <div class="card-art"><svg viewBox="0 0 400 400" role="img" aria-label="손수건"><use href="#art-hanky"/></svg></div>
+        <h3>가제 손수건</h3><p>작은 자수 포인트가 들어간 데일리 손수건</p><span class="tag">Handkerchief</span>
+      </article>
+      <article class="card reveal" style="--c:#E6E0FA;--d:120ms">
+        <div class="card-art"><svg viewBox="0 0 400 400" role="img" aria-label="이름 담요"><use href="#art-blanket"/></svg></div>
+        <h3>이름 자수 담요</h3><p>아이 이름을 새겨 선물하기 좋은 담요</p><span class="tag">Blanket</span>
+      </article>
+      <article class="card reveal" style="--c:#FFE6D8;--d:240ms">
+        <div class="card-art"><svg viewBox="0 0 400 400" role="img" aria-label="모빌"><use href="#art-mobile"/></svg></div>
+        <h3>펠트 자수 모빌</h3><p>아이 방 분위기를 부드럽게 채우는 데코 모빌</p><span class="tag">Mobile</span>
+      </article>
+    </div>
+  </div>
+  <div class="wave bottom" aria-hidden="true"></div>
+</section>
+
+<!-- ===== 우리의 약속 ===== -->
+<section class="section why" id="why">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Promise</p>
+      <h2>작은 아이를 위한 네 가지 약속</h2>
+    </div>
+    <div class="promises">
+      <div class="promise reveal" style="--d:0ms"><span class="ico" style="--c:#FDE3EA">🧵</span><h3>부드러운 소재</h3><p>피부에 닿는 작품이기에 순한 원단과 실을 고릅니다.</p></div>
+      <div class="promise reveal" style="--d:120ms"><span class="ico" style="--c:#DDEEFA">🪡</span><h3>튼튼한 마감</h3><p>아이가 당기고 물어도 풀리지 않도록 꼼꼼히 마감합니다.</p></div>
+      <div class="promise reveal" style="--d:240ms"><span class="ico" style="--c:#FFF1C9">🌼</span><h3>하나뿐인 디자인</h3><p>아이의 이름과 취향에 맞춰 도안을 함께 정합니다.</p></div>
+      <div class="promise reveal" style="--d:360ms"><span class="ico" style="--c:#D8F0E2">🎁</span><h3>정성스러운 포장</h3><p>출산·돌 선물로 바로 전할 수 있게 포장해 드립니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 클래스·창업 ===== -->
+<section class="section class-sec" id="class">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">Studio &amp; Class</p>
+      <h2>공방을 열고, 함께 배웁니다</h2>
+      <p>작품 판매와 함께 공방 클래스, 창업 과정을 준비하고 있습니다.</p>
+    </div>
+    <div class="class-grid">
+      <div class="class-card reveal from-left" style="--c:#FDE3EA">
+        <span class="badge">오픈 예정</span>
+        <h3>원데이 클래스</h3>
+        <p>자수가 처음이어도 괜찮아요. 하루 만에 작은 소품 하나를 완성하는 체험 수업입니다.</p>
+        <ul><li>기초 스티치 익히기</li><li>손수건·파우치 만들기</li><li>준비물 모두 제공</li></ul>
+      </div>
+      <div class="class-card reveal" style="--c:#FFF1C9;--d:120ms">
+        <span class="badge">오픈 예정</span>
+        <h3>정규 클래스</h3>
+        <p>유아 소품을 직접 디자인하고 완성하는 단계별 과정입니다.</p>
+        <ul><li>도안 구성과 배색</li><li>방석·턱받이·인형 제작</li><li>소규모 집중 수업</li></ul>
+      </div>
+      <div class="class-card reveal from-right" style="--c:#DDEEFA;--d:240ms">
+        <span class="badge">준비 중</span>
+        <h3>공방 창업 과정</h3>
+        <p>나만의 자수공방을 시작하고 싶은 분을 위한 상담과 노하우 공유 과정입니다.</p>
+        <ul><li>작품 기획·가격 설정</li><li>온라인 판매 시작하기</li><li>공방 운영 상담</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 주문 안내 ===== -->
+<section class="section order" id="order">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">How to order</p>
+      <h2>주문은 이렇게 진행돼요</h2>
+    </div>
+    <ol class="steps">
+      <li class="reveal" style="--d:0ms"><b>1</b><h3>문의</h3><p>원하는 작품과 용도를 알려 주세요.</p></li>
+      <li class="reveal" style="--d:120ms"><b>2</b><h3>상담·도안</h3><p>이름, 색상, 도안을 함께 정합니다.</p></li>
+      <li class="reveal" style="--d:240ms"><b>3</b><h3>제작</h3><p>한 땀 한 땀 손으로 수놓아 완성합니다.</p></li>
+      <li class="reveal" style="--d:360ms"><b>4</b><h3>포장·배송</h3><p>선물 포장 후 안전하게 보내 드립니다.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== 문의 ===== -->
+<section class="section contact" id="contact">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <h2>작은 마음 하나,<br>함께 수놓아 볼까요?</h2>
+      <p>작품 문의, 클래스·창업 상담 모두 환영합니다.<br>연락처와 SNS 채널은 곧 안내해 드리겠습니다.</p>
+      <div class="contact-links">
+        <!-- TODO: 실제 연락처 확정 후 href 교체 (예: 인스타그램, 카카오 채널, 이메일) -->
+        <a class="btn" href="#">인스타그램 (준비 중)</a>
+        <a class="btn ghost" href="#">카카오 채널 (준비 중)</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p class="logo-text">ibisjasu</p>
+    <p>아이를 위한 자수공방 · 방석 · 턱받이 · 애착인형</p>
+    <p class="copy">© 2026 ibisjasu. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
